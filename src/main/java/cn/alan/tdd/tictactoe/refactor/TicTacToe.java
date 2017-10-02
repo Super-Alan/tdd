@@ -17,10 +17,27 @@ public class TicTacToe {
         checkAxis(y);
         lastPlayer = nextPlayer();
         setBox(x,y,lastPlayer);
-        if(this.isWinner()){
+        if(isWinner()){
             return lastPlayer + " is the winner";
+        } else if( isDraw()){
+            return "The result is draw";
         }
         return "No winner";
+    }
+
+    /**
+     * 填满棋盘认为是平局
+     * @return
+     */
+    private boolean isDraw() {
+        for (int i = 0; i < SIZE; i++){
+            for (int j = 0; j < SIZE; j++){
+                if (board[i][j] == '\0'){
+                    return false;
+                }
+            }
+        }
+        return  true;
     }
 
     private void checkAxis(int axis) {

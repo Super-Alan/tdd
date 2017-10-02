@@ -55,8 +55,8 @@
       <file leaf-file-name="TIcTacToeRTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cn/alan/tdd/tictactoe/refactor/TIcTacToeRTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="409">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#384#385#0" expanded="true" />
@@ -71,8 +71,8 @@
       <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/refactor/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="717">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
@@ -400,8 +400,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/alan/tdd/tictactoe/TicTacToeTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/refactor/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/alan/tdd/tictactoe/refactor/TIcTacToeRTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/refactor/TicTacToe.java" />
       </list>
     </option>
   </component>
@@ -540,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner">
+  <component name="RunManager" selected="JUnit.TIcTacToeRTests.whenAllBoxesAreFilledThenDraw">
     <configuration name="TIcTacToeRTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -555,6 +555,31 @@
       <option name="MAIN_CLASS_NAME" value="cn.alan.tdd.tictactoe.refactor.TIcTacToeRTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.alan.tdd.tictactoe.refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tdd-begin3_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.alan.tdd.tictactoe.refactor" />
+      <option name="MAIN_CLASS_NAME" value="cn.alan.tdd.tictactoe.refactor.TIcTacToeRTests" />
+      <option name="METHOD_NAME" value="whenAllBoxesAreFilledThenDraw" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -604,31 +629,6 @@
       <option name="PACKAGE_NAME" value="cn.alan.tdd.tictactoe.refactor" />
       <option name="MAIN_CLASS_NAME" value="cn.alan.tdd.tictactoe.refactor.TIcTacToeRTests" />
       <option name="METHOD_NAME" value="whenPlayDiagonalLineThenWinner" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TIcTacToeRTests.whenPlayThenNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.alan.tdd.tictactoe.refactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tdd-begin3_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.alan.tdd.tictactoe.refactor" />
-      <option name="MAIN_CLASS_NAME" value="cn.alan.tdd.tictactoe.refactor.TIcTacToeRTests" />
-      <option name="METHOD_NAME" value="whenPlayThenNoWinner" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -747,19 +747,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayThenNoWinner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayDiagonalLineThenWinner" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayTopBottomDiagonalLineThenWinner" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayDiagonalLineThenWinner" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayTopBottomDiagonalLineThenWinner" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayTopBottomDiagonalLineThenWinner" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayDiagonalLineThenWinner" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayThenNoWinner" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayTopBottomDiagonalLineThenWinner" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests.whenPlayDiagonalLineThenWinner" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TIcTacToeRTests" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +773,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506929732408</updated>
-      <workItem from="1506929737794" duration="9367000" />
+      <workItem from="1506929737794" duration="11082000" />
     </task>
     <servers />
   </component>
@@ -781,17 +781,17 @@
     <history-entry file="TIcTacToeRTests - 2017.10.02 at 21h 49m 21s.xml">
       <configuration name="TIcTacToeRTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TIcTacToeRTests_whenAllBoxesAreFilledThenDraw - 2017.10.02 at 22h 36m 43s.xml">
+      <configuration name="TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TIcTacToeRTests_whenAllBoxesAreFilledThenDraw - 2017.10.02 at 22h 38m 23s.xml">
+      <configuration name="TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TIcTacToeRTests_whenAllBoxesAreFilledThenDraw - 2017.10.02 at 22h 40m 27s.xml">
+      <configuration name="TIcTacToeRTests.whenAllBoxesAreFilledThenDraw" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TIcTacToeRTests_whenPlayAndBottomTopDiagonalLineThenWinner - 2017.10.02 at 21h 59m 02s.xml">
       <configuration name="TIcTacToeRTests.whenPlayAndBottomTopDiagonalLineThenWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TIcTacToeRTests_whenPlayAndWholeHorizontalLineThenWinner - 2017.10.02 at 16h 48m 22s.xml">
-      <configuration name="TIcTacToeRTests.whenPlayAndWholeHorizontalLineThenWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TIcTacToeRTests_whenPlayAndWholeHorizontalLineThenWinner - 2017.10.02 at 16h 48m 35s.xml">
-      <configuration name="TIcTacToeRTests.whenPlayAndWholeHorizontalLineThenWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TIcTacToeRTests_whenPlayAndWholeHorizontalLineThenWinner - 2017.10.02 at 21h 43m 30s.xml">
-      <configuration name="TIcTacToeRTests.whenPlayAndWholeHorizontalLineThenWinner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TIcTacToeRTests_whenPlayAndWholeHorizontalLineThenWinner - 2017.10.02 at 21h 43m 42s.xml">
       <configuration name="TIcTacToeRTests.whenPlayAndWholeHorizontalLineThenWinner" configurationId="JUnit" />
@@ -810,7 +810,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9367000" />
+    <option name="totallyTimeSpent" value="11082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
@@ -900,6 +900,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/refactor/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/alan/tdd/tictactoe/TicTacToeTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -912,29 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/alan/tdd/tictactoe/refactor/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/alan/tdd/tictactoe/refactor/TIcTacToeRTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="409">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
