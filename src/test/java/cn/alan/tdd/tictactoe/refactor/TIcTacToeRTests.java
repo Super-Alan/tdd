@@ -5,6 +5,9 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import java.net.UnknownHostException;
+
 import static org.junit.Assert.*;
 
 public class TIcTacToeRTests {
@@ -14,7 +17,7 @@ public class TIcTacToeRTests {
     private TicTacToe ticTacToe;
 
     @Before
-    public final void setup(){
+    public final void setup() throws UnknownHostException {
         ticTacToe = new TicTacToe();
     }
 
@@ -50,7 +53,7 @@ public class TIcTacToeRTests {
 
     @Test
     public void whenPlayThenNoWinner(){
-        String actual = ticTacToe.play(1,1);
+        String actual = ticTacToe.play(2,1);
         assertEquals("No winner",actual);
     }
 
